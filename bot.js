@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const devs = ['422037009960402956'];
 const db = require('quick.db');
-const premium = ['470896018603376640']
+const premium = ['422037009960402956']
 const client = new Discord.Client();   
 const bot = new Discord.Client();   
 const giphy = require('giphy-api')();    
-const googl = require('goo.gl');  
+const google = require('goo.gl');  
 const translate = require('google-translate-api');   
 const fs = require("fs"); 
 const canvas = require("canvas");
@@ -27,7 +27,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
 const dateFormat = require('dateformat'); 
 const pretty = require('pretty-ms') 
-const prefix = 'X';
+const prefix = 'x';
 var table = require('table').table
 var ti={}  
 ,spee={}
@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['Xhelp','Type Xhelp'];
+    var setGame = ['xhelp','Type xhelp'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -404,7 +404,7 @@ client.on('message', message => {
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "3bker Community ©"
+                  text: YahiaX ©"
                 }
             }}
             )
